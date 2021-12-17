@@ -6,17 +6,17 @@ import time
 
 st.header("My first Python Web App")
 
-readme = st.checkbox("readme first")
+readme = st.checkbox("Click Here")
 
 if readme:
 
     st.write("""
-        This is a web app demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/richieyuyongpoh/myfirstapp)
+        This is a web app demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/apizbaha/test_17122021)
         """)
 
-    st.write ("For more info, please contact:")
+    st.write ("For more info, please contact: Hafiz Baharudin")
 
-    st.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+    #st.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
 
 option = st.sidebar.selectbox(
     'Select a mini project',
